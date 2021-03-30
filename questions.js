@@ -1,5 +1,6 @@
 // function to calculate the result of the survey
 function tabulateAnswers() {
+  event.preventDefault();
   // initialize variables for each choice's score
   // If you add more choices and outcomes, you must add another variable here.
   var c1score = 0;
